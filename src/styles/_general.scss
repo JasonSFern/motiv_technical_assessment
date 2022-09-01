@@ -4,3 +4,16 @@ GENERAL STYLES
 // ::-webkit-scrollbar {
 //   display: none;
 // }
+
+// .welcome-background {
+//   background-image: url('./assets/desktop-background.svg');
+// }
+
+body {
+  height: 100%;
+  // background-image: url('./assets/desktop-background.svg');
+  background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  background-size: cover;
+}
